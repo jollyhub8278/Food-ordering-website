@@ -10,6 +10,12 @@
 .navbar-toggler {
   border: none;
 }
+.nav-item:hover{
+  background-color: white;
+}
+.navbar-nav {
+  background-color: rgba(67, 67, 67, 0.3);
+}
 
 .navbar-toggler:focus {
   box-shadow: none;
@@ -43,7 +49,7 @@
 }
 
 .center-links .nav-item .dropdown-menu{
-  background-color: black;
+  background-color: rgb(255, 255, 255,0.3);
   border-radius: 0;
   border: none;
   padding-top: 0;
